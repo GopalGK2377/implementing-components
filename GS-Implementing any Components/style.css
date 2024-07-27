@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #495057;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid #0062cc;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #cccccc;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0062cc;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0062cc;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,...');
+    /* Replace with custom icon if needed */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #0062cc, #3333ff);
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 5px solid #ffffff;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Course Card */
+.course-card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.course-card .card-body {
+    padding: 1.5rem;
+}
+
+.course-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.course-card .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.course-card .btn {
+    background-color: #0062cc;
+    border: none;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.course-card .btn:hover {
+    background-color: #004bbd;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1.125rem;
+    }
+
+    .course-card {
+        margin-bottom: 20px;
+    }
+}
